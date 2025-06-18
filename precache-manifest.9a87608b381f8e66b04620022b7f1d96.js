@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "aff47296f8c3fcc19a6c",
+    "revision": "c1913aba83bcff818da2",
     "url": "/TextTransform/static/css/main.fce9370a.chunk.css"
   },
   {
-    "revision": "aff47296f8c3fcc19a6c",
-    "url": "/TextTransform/static/js/main.aff47296.chunk.js"
+    "revision": "c1913aba83bcff818da2",
+    "url": "/TextTransform/static/js/main.c1913aba.chunk.js"
   },
   {
     "revision": "7fc5741dfb5d402e95fa",
@@ -20,7 +20,7 @@ self.__precacheManifest = [
     "url": "/TextTransform/static/js/runtime~main.dc5fee07.js"
   },
   {
-    "revision": "b7fb46f29a305ed818ee65ac85f44bd5",
+    "revision": "30b6be4cfdc4a70437f41c9f51edd453",
     "url": "/TextTransform/index.html"
   }
 ];

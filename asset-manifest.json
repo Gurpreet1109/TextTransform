@@ -1,7 +1,7 @@
 {
   "main.css": "/TextTransform/static/css/main.fce9370a.chunk.css",
-  "main.js": "/TextTransform/static/js/main.aff47296.chunk.js",
-  "main.js.map": "/TextTransform/static/js/main.aff47296.chunk.js.map",
+  "main.js": "/TextTransform/static/js/main.c1913aba.chunk.js",
+  "main.js.map": "/TextTransform/static/js/main.c1913aba.chunk.js.map",
   "static/js/1.7fc5741d.chunk.js": "/TextTransform/static/js/1.7fc5741d.chunk.js",
   "static/js/1.7fc5741d.chunk.js.map": "/TextTransform/static/js/1.7fc5741d.chunk.js.map",
   "static/js/2.30ec9820.chunk.js": "/TextTransform/static/js/2.30ec9820.chunk.js",
@@ -10,6 +10,6 @@
   "runtime~main.js.map": "/TextTransform/static/js/runtime~main.dc5fee07.js.map",
   "static/css/main.fce9370a.chunk.css.map": "/TextTransform/static/css/main.fce9370a.chunk.css.map",
   "index.html": "/TextTransform/index.html",
-  "precache-manifest.9b2493641171fc266197a756a25e973c.js": "/TextTransform/precache-manifest.9b2493641171fc266197a756a25e973c.js",
+  "precache-manifest.9a87608b381f8e66b04620022b7f1d96.js": "/TextTransform/precache-manifest.9a87608b381f8e66b04620022b7f1d96.js",
   "service-worker.js": "/TextTransform/service-worker.js"
 }

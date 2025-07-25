@@ -72,7 +72,7 @@ export default function TextForm(props) {
         className="container"
         style={{ color: props.mode === "dark" ? "white" : "#041319" }}
       >
-        <h2 className="mb-4">{props.heading}</h2>
+        <h2 className="mb-4 textform-heading">{props.heading}</h2>
         <div className="mb-3">
           <textarea
             className="form-control"
@@ -86,46 +86,22 @@ export default function TextForm(props) {
             value={text}
           ></textarea>
         </div>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleUpClick}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1" onClick={handleUpClick}>
           Convert to UpperCase
         </button>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleLoClick}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1" onClick={handleLoClick}>
           Convert to LowerCase
         </button>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleExtraSpaces}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1" onClick={handleExtraSpaces}>
           remove Extra Spaces
         </button>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleExtraLines}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1" onClick={handleExtraLines}>
           remove Extra Lines
         </button>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleClearClick}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1"onClick={handleClearClick}>
           Clear Text
         </button>
-        <button
-          disabled={text.length === 0}
-          className="btn btn-primary mx-1 my-1"
-          onClick={handleCopy}
-        >
+        <button disabled={text.length === 0} className="btn mx-1 my-1" onClick={handleCopy}>
           Coppy Text
         </button>
       </div>

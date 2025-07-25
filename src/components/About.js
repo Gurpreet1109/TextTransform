@@ -2,11 +2,6 @@ import React, { } from 'react'
 
 export default function About(props) {
 
-    // const [myStyle, setMyStyle] = useState({
-    //     color: 'black',
-    //     backgroundColor: 'white'
-    // })
-
     let myStyle = {
         color: props.mode === 'dark' ? 'white' : 'black',
         backgroundColor: props.mode==='dark'?'#2d2d56':'white'
@@ -25,7 +20,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseOne" className="accordion-collapse collapse " data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            TextUtils gives you a way to Analize your text Quickly and efficiently.
+                            TextTransform gives you a way to Analize your text Quickly and efficiently.
                         </div>
                     </div>
                 </div>
@@ -37,7 +32,7 @@ export default function About(props) {
                     </h2>
                     <div id="collapseTwo" className="accordion-collapse collapse" data-bs-parent="#accordionExample">
                         <div className="accordion-body" style={myStyle}>
-                            TextUtils is a free character counter tool thatprovides instant character count & word count statistics for a given text. TextUtils reports the number of words and characters. This is suitable for writing text with word/ Character limit.
+                            TextTransform is a free character counter tool thatprovides instant character count & word count statistics for a given text. TextTransform reports the number of words and characters. This is suitable for writing text with word/ Character limit.
                         </div>
                     </div>
                 </div>

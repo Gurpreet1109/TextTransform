@@ -40,13 +40,69 @@
 .blank {
   color: red;
 }
-.btn {
-  color: white;
-  background-color:#14406c;
-  border: 1px solid white;
+
+.nav-children {
+  display: flex;
+  width: 100%;
+  height: 40px;
+  align-items: center;
+  padding: 3px;
 }
 
-.form-control{
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  gap: 10px;
+}
+
+.btn {
+  color: #000000;
+  background-color: #bbbbbb;
+  border: 1px solid #000000;
+  /* font-size: 8px;
+    padding: 5px; */
+}
+
+.form-control {
   outline: none;
-  border:2px solid rgb(0, 0, 0);
+  border: 2px solid rgb(0, 0, 0);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  #root {
+    font-size: 12px;
+    width: 100vw;
+  }
+  .btn {
+    color: #000000;
+    background-color: #bbbbbb;
+    border: 1px solid #000000;
+    font-size: 10px;
+    padding: 4px;
+  }
+  .textform-heading {
+    font-size: 12px;
+    text-align: justify;
+  }
+}
+
+/* Tablet */
+@media (min-width: 600px) and (max-width: 834px) {
+  #root {
+    font-size: 16px;
+    line-height: 1.3;
+    width: 100vw;
+  }
+  .textform-heading {
+    font-size: 24px;
+  }
+  .btn {
+    color: #000000;
+    background-color: #bbbbbb;
+    border: 1px solid #000000;
+    font-size: 12px;
+    padding: 5px;
+  }
 }
